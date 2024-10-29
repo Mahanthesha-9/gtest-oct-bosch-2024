@@ -21,6 +21,7 @@ add_executable(
   //StringCalculator.cpp
   //StringCalculator.Tests.cpp
   //StringCalculatorFixture.Test.cpp
+  StringCalculatorDataDrivenTests.cpp
   TestChallenge.cpp
 
  
