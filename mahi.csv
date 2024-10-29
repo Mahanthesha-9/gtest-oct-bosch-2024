@@ -1,2 +1,11 @@
-TestCaseName,TestCase Scenario /Descrption,Input/PreCondition,ExpectedOutputInvalidThresholdLogsError,,Instantiate speed monitor with 150,"Check this string in log ""_speedThreshold value must be in the range {1-100}""",,Wrire mock for communication and speed sensor and instantiate speed monitor with 50,PushesMessageWhenSpeedExceedsThreshold,simulate successful push,"via mock return currentspeed as 60 which exceeds threshold
-pushMessage and return 200 via mock","Check this string in log """"Current Speed In Kmph """TestCaseName,TestCase Scenario /Descrption,Input/PreCondition,ExpectedOutputInvalidThresholdLogsError,,Instantiate speed monitor with 150,"Check this string in log ""_speedThreshold value must be in the range {1-100}""",,Wrire mock for communication and speed sensor and instantiate speed monitor with 50,,,,,,,,,,
+TestCaseName,TestCase Scenario /Descrption,Input/PreCondition,ExpectedOutput
+InvalidThresholdLogsError,,Instantiate speed monitor with 150,"Check this string in log ""_speedThreshold value must be in the range """
+,,Wrire mock for communication and speed sensor and instantiate speed monitor with 50,
+PushesMessageWhenSpeedExceedsThreshold,simulate  push,"via mock return currentspeed as 60 which exceeds threshold
+pushMessage and return 200 via mock","Check this string in log """"Current Speed In Kmph """
+TestCaseName,TestCase Scenario /Descrption,Input/PreCondition,ExpectedOutput
+InvalidThresholdLogsError,,Instantiate speed monitor with 150,"Check this string in log ""_speedThreshold value must be in the range {1-100}"""
+,,Wrire mock for communication and speed sensor and instantiate speed monitor with 50,
+,,,
+,,,
+,,,
