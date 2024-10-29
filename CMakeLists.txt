@@ -18,11 +18,8 @@ enable_testing()
 add_compile_options("--coverage")
 add_executable(
   unittestcode
-  //StringCalculator.cpp
-  //StringCalculator.Tests.cpp
-  //StringCalculatorFixture.Test.cpp
-  StringCalculatorDataDrivenTests.cpp
-  TestChallenge.cpp
+ VehicleSpeedMonitor.cpp
+ VehicleSpeedMonitor.Tests.cpp
 
  
  )
